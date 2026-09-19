@@ -5,7 +5,8 @@ import Services from '../components/Services';
 import WhyChooseUs from '../components/WhyChooseUs';
 import Process from '../components/Process';
 import Solutions from '../components/Solutions';
-
+import FAQ from '../components/FAQ';
+import ContactCTA from '../components/ContactCTA';
 function Home() {
   return (
     <>
@@ -22,8 +23,12 @@ function Home() {
         <WhyChooseUs/>
 
         <Process/>
-    
+
         <Solutions/>
+
+        <FAQ/>
+
+        <ContactCTA/>
 
       </main>
     </>
