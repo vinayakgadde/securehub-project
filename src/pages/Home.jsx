@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import TrustStats from '../components/TrustStats';
 import Services from '../components/Services';
+import WhyChooseUs from '../components/WhyChooseUs';
 
 function Home() {
   return (
@@ -15,6 +16,8 @@ function Home() {
         <TrustStats />
 
         <Services />
+
+        <WhyChooseUs/>
 
       </main>
     </>
