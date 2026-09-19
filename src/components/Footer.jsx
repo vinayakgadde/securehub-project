@@ -20,7 +20,7 @@ function Footer() {
             <a href="#home" className="footer-logo-link">
 
               <img
-                src="/img/securehub-logo.png"
+                src="/img/securehub-white-logo.png"
                 alt="SecureHub IT Solutions"
                 className="footer-logo"
               />

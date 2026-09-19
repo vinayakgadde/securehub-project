@@ -27,7 +27,7 @@ function Process() {
   ];
 
   return (
-    <section className="process-section" id="solutions">
+    <section className="process-section" id="process">
 
       <div className="container">
 

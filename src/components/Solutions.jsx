@@ -39,7 +39,7 @@ function Solutions() {
   ];
 
   return (
-    <section className="solutions-section">
+   <section className="solutions-section" id="solutions">
 
       <div className="container">
 

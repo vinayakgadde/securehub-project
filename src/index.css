@@ -1943,7 +1943,6 @@ img {
   width: 190px;
   height: auto;
   object-fit: contain;
-  filter: brightness(0) invert(1);
 }
 
 .footer-description {
@@ -2089,4 +2088,46 @@ img {
     gap: 15px;
   }
 
+}
+
+/* ========================================
+   MOBILE NAVBAR IMPROVEMENTS
+======================================== */
+
+@media (max-width: 991px) {
+
+  .navbar {
+    min-height: 72px;
+  }
+
+
+  .securehub-logo {
+    width: 165px;
+  }
+
+  .navbar-toggler {
+    padding: 7px 9px;
+    border: 1px solid #d9e5eb;
+    border-radius: 7px;
+    box-shadow: none !important;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 3px rgba(8, 124, 193, 0.1) !important;
+  }
+
+  .navbar-collapse {
+    padding: 15px 0 10px;
+  }
+
+  .navbar .nav-link {
+    padding: 9px 5px !important;
+  }
+
+}
+
+
+html,
+body {
+  overflow-x: hidden;
 }
