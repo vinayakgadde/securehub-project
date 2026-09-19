@@ -7,6 +7,8 @@ import Process from '../components/Process';
 import Solutions from '../components/Solutions';
 import FAQ from '../components/FAQ';
 import ContactCTA from '../components/ContactCTA';
+import Footer from '../components/Footer';
+
 function Home() {
   return (
     <>
@@ -20,17 +22,20 @@ function Home() {
 
         <Services />
 
-        <WhyChooseUs/>
+        <WhyChooseUs />
 
-        <Process/>
+        <Process />
 
-        <Solutions/>
+        <Solutions />
 
-        <FAQ/>
+        <FAQ />
 
-        <ContactCTA/>
+        <ContactCTA />
 
       </main>
+
+      <Footer />
+
     </>
   );
 }
