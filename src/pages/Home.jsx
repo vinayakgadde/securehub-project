@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
+import TrustStats from '../components/TrustStats';
 
 function Home() {
   return (
@@ -9,6 +10,8 @@ function Home() {
       <main>
 
         <Hero />
+
+        <TrustStats />
 
       </main>
     </>
