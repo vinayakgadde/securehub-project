@@ -3,6 +3,8 @@ import Hero from '../components/Hero';
 import TrustStats from '../components/TrustStats';
 import Services from '../components/Services';
 import WhyChooseUs from '../components/WhyChooseUs';
+import Process from '../components/Process';
+import Solutions from '../components/Solutions';
 
 function Home() {
   return (
@@ -18,6 +20,10 @@ function Home() {
         <Services />
 
         <WhyChooseUs/>
+
+        <Process/>
+    
+        <Solutions/>
 
       </main>
     </>
