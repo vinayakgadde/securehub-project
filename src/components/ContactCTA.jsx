@@ -33,7 +33,7 @@ function ContactCTA() {
             <div className="col-lg-4 text-lg-end mt-4 mt-lg-0">
 
               <a
-                href="mailto:info@securehubitsolutions.com"
+                href="mailto:securehubitsolutions@gmail.com"
                 className="cta-button"
               >
                 Talk to an IT Expert
