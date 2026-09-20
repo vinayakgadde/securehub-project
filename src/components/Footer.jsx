@@ -118,8 +118,8 @@ function Footer() {
                   Email
                 </span>
 
-                <a href="mailto:info@securehubitsolutions.com">
-                  info@securehubitsolutions.com
+                <a href="mailto:securehubitsolutions@gmail.com">
+                  securehubitsolutions@gmail.com
                 </a>
 
               </div>
@@ -132,7 +132,7 @@ function Footer() {
                 </span>
 
                 <a href="tel:+910000000000">
-                  +91 00000 00000
+                  +91 9142447070
                 </a>
 
               </div>
