@@ -36,3 +36,9 @@ export async function postJson(path, body, options = {}) {
 }
 
 export const submitContact = (payload) => postJson('/api/contact', payload);
+
+// Wakes the backend if the free hosting put it to sleep, so it is ready by the time
+// a visitor fills in the form. The response is not needed, so CORS does not matter here.
+export function warmUpApi() {
+  fetch(`${API_URL}/api/health`, { mode: 'no-cors', cache: 'no-store' }).catch(() => {});
+}

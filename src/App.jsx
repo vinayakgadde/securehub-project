@@ -2,11 +2,14 @@ import { useEffect } from 'react';
 
 import Home from './pages/Home';
 import CookieBanner from './components/CookieBanner';
+import { warmUpApi } from './api/client';
 import { CONSENT_EVENT, getConsent } from './utils/consent';
 import { startTracking } from './utils/tracker';
 
 function App() {
   useEffect(() => {
+    warmUpApi(); // wake the backend early (no personal data involved)
+
     // Track only after the visitor accepted analytics (now, or later via the banner)
     const startIfAllowed = () => {
       if (getConsent() === 'granted') startTracking();
