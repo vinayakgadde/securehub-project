@@ -1,3 +1,5 @@
+import { resetConsent } from '../utils/consent';
+
 function Footer() {
   const services = [
     'Managed IT Services',
@@ -167,9 +169,17 @@ function Footer() {
 
           <div className="footer-bottom-links">
 
-            <a href="#home">
+            <a href="/privacy.html">
               Privacy Policy
             </a>
+
+            <button
+              type="button"
+              className="footer-link-btn"
+              onClick={resetConsent}
+            >
+              Cookie settings
+            </button>
 
             <a href="#home">
               Terms of Service

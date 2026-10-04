@@ -1,0 +1,186 @@
+/* ========================================
+   CONTACT FORM (inside the CTA card)
+======================================== */
+
+.contact-cta h2.cf-title {
+  font-size: clamp(28px, 3vw, 38px);
+}
+
+.cf-alt {
+  margin-top: 22px;
+  color: #8097aa;
+  font-size: 12px;
+}
+
+.cf-alt a {
+  color: #67dce8;
+  text-decoration: none;
+}
+
+.cf-alt a:hover {
+  text-decoration: underline;
+}
+
+.cf-form {
+  padding: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+}
+
+.cf-label {
+  display: block;
+  margin-bottom: 6px;
+  color: #c9d6e2;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.cf-input {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  background: rgba(4, 29, 56, 0.55);
+  color: #ffffff;
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cf-input::placeholder {
+  color: #7890a4;
+}
+
+.cf-input:focus {
+  outline: none;
+  border-color: #12c7d9;
+  box-shadow: 0 0 0 3px rgba(18, 199, 217, 0.18);
+}
+
+.cf-input-error {
+  border-color: #ff8a8a;
+}
+
+.cf-input-error:focus {
+  border-color: #ff8a8a;
+  box-shadow: 0 0 0 3px rgba(255, 138, 138, 0.18);
+}
+
+select.cf-input option {
+  color: #062b55;
+  background: #ffffff;
+}
+
+textarea.cf-input {
+  resize: vertical;
+  min-height: 110px;
+}
+
+.cf-error {
+  margin-top: 5px;
+  color: #ff9d9d;
+  font-size: 11px;
+}
+
+.cf-alert {
+  margin-top: 16px;
+  padding: 11px 14px;
+  border: 1px solid rgba(255, 138, 138, 0.4);
+  border-radius: 8px;
+  background: rgba(255, 138, 138, 0.1);
+  color: #ffb4b4;
+  font-size: 13px;
+}
+
+.cf-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.cf-actions .cta-note {
+  margin-top: 0;
+}
+
+.cf-submit {
+  border: 0;
+  cursor: pointer;
+}
+
+.cf-submit:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Honeypot: off-screen, never display:none (some bots skip those) */
+.cf-hp {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* Success panel */
+.cf-success {
+  padding: 48px 28px;
+  border: 1px solid rgba(18, 199, 217, 0.3);
+  border-radius: 16px;
+  background: rgba(18, 199, 217, 0.07);
+  text-align: center;
+}
+
+.cf-success-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  background: #12c7d9;
+  color: #041d38;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.cf-success h3 {
+  margin-bottom: 8px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.cf-success p {
+  max-width: none;
+  margin: 0 auto 20px;
+  color: #a9bac9;
+}
+
+.cf-reset {
+  padding: 10px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  background: transparent;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.cf-reset:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 767px) {
+  .cf-form {
+    padding: 20px 16px;
+  }
+}
